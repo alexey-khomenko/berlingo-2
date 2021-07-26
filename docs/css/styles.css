@@ -2269,33 +2269,31 @@ svg {
 }
 
 .index-prizes {
-  height: 1086px;
+  height: 1080px;
 }
 @media (max-width: 1199px) {
   .index-prizes {
-    height: 999px;
+    height: 961px;
   }
 }
 @media (max-width: 959px) {
   .index-prizes {
-    height: 1945px;
+    height: 1530px;
   }
 }
 
 .index-prizes__back {
   right: 50%;
-  top: 11px;
-  transform: translateX(860px);
+  top: 0;
+  transform: translateX(770px);
 }
 @media (max-width: 1199px) {
   .index-prizes__back {
-    top: -9px;
-    transform: translateX(750px);
+    transform: translateX(700px);
   }
 }
 @media (max-width: 959px) {
   .index-prizes__back {
-    top: 20px;
     transform: translateX(393px);
   }
 }
@@ -2303,7 +2301,7 @@ svg {
 .index-prizes__main {
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 563px;
+  top: 504px;
 }
 @media (max-width: 1199px) {
   .index-prizes__main {
@@ -2312,30 +2310,26 @@ svg {
 }
 @media (max-width: 959px) {
   .index-prizes__main {
-    top: 993px;
+    top: 770px;
   }
 }
 .index-prizes__main .content {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   align-items: stretch;
   height: 926px;
 }
-@media (max-width: 1199px) {
-  .index-prizes__main .content {
-    height: 839px;
-  }
-}
 @media (max-width: 959px) {
   .index-prizes__main .content {
-    height: 1865px;
+    height: 1460px;
   }
 }
 .index-prizes__main .card {
   display: block;
   position: relative;
   background: rgba(0, 0, 0, 0.6);
-  border: 1px solid #ffffff;
+  border: 1px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 40px;
 }
@@ -2346,53 +2340,42 @@ svg {
 }
 .index-prizes__main .card_primary {
   flex-basis: 100%;
-  min-height: 488px;
-  margin: 0 0 40px 0;
+  height: 488px;
+  margin: 0 0 106px 0;
 }
 @media (max-width: 1199px) {
   .index-prizes__main .card_primary {
-    min-height: 443px;
+    height: 443px;
     margin: 0 0 20px 0;
   }
 }
 @media (max-width: 959px) {
   .index-prizes__main .card_primary {
-    min-height: 828px;
+    height: 828px;
   }
 }
 .index-prizes__main .card_week {
-  flex-basis: 760px;
-  min-height: 398px;
-  margin: 0 40px 0 0;
+  flex-basis: 568px;
+  height: 376px;
+  margin: 0;
 }
 @media (max-width: 1199px) {
   .index-prizes__main .card_week {
-    flex-basis: 620px;
-    min-height: 376px;
-    margin: 0 20px 0 0;
+    flex-basis: 460px;
   }
 }
 @media (max-width: 959px) {
   .index-prizes__main .card_week {
     flex-basis: 100%;
-    min-height: 661px;
-    margin: 0 0 20px 0;
+    height: 610px;
   }
-}
-.index-prizes__main .card_day {
-  flex-basis: 360px;
-  min-height: 398px;
-}
-@media (max-width: 1199px) {
-  .index-prizes__main .card_day {
-    flex-basis: 300px;
-    min-height: 376px;
-  }
-}
-@media (max-width: 959px) {
-  .index-prizes__main .card_day {
-    flex-basis: 100%;
-    min-height: 336px;
+  .index-prizes__main .card_week:last-of-type {
+    border: none;
+    background: none;
+    position: absolute;
+    bottom: 250px;
+    height: 300px;
+    width: 280px;
   }
 }
 .index-prizes__main .text {
@@ -2402,7 +2385,7 @@ svg {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .index-prizes__main .text.title_primary {
   font-family: "PF Din Text Cond Pro", sans-serif;
@@ -2449,19 +2432,19 @@ svg {
   font-style: normal;
   font-weight: 400;
   line-height: 1.125;
-  font-size: 30px;
-  top: 77px;
+  font-size: 28px;
+  top: 554px;
+  z-index: 1;
 }
 @media (max-width: 1199px) {
   .index-prizes__main .text.title_secondary {
-    font-size: 28px;
-    top: 76px;
+    top: 480px;
   }
 }
 @media (max-width: 959px) {
   .index-prizes__main .text.title_secondary {
     font-size: 24px;
-    top: 56px;
+    top: 906px;
   }
 }
 .index-prizes__main .text.subtitle_secondary {
@@ -2531,11 +2514,11 @@ svg {
   }
 }
 .index-prizes__main .images_week {
-  width: 640px;
+  width: 140px;
 }
 @media (max-width: 1199px) {
   .index-prizes__main .images_week {
-    width: 540px;
+    width: 140px;
   }
 }
 @media (max-width: 959px) {
@@ -2544,17 +2527,6 @@ svg {
   }
 }
 .index-prizes__main .images_week img {
-  height: 140px;
-}
-@media (max-width: 959px) {
-  .index-prizes__main .images_week img:not(:last-of-type) {
-    margin-bottom: 25px;
-  }
-}
-.index-prizes__main .images_day {
-  width: 140px;
-}
-.index-prizes__main .images_day img {
   height: 140px;
 }
 
@@ -4086,7 +4058,7 @@ svg {
 }
 @media (max-width: 959px) {
   .account-prizes {
-    height: 1930px;
+    height: 1530px;
   }
 }
 
@@ -4113,12 +4085,12 @@ svg {
 }
 @media (max-width: 1199px) {
   .account-prizes__main {
-    top: 480px;
+    top: 500px;
   }
 }
 @media (max-width: 959px) {
   .account-prizes__main {
-    top: 972px;
+    top: 770px;
   }
 }
 .account-prizes__main .content {
@@ -4130,14 +4102,14 @@ svg {
 }
 @media (max-width: 959px) {
   .account-prizes__main .content {
-    height: 1865px;
+    height: 1460px;
   }
 }
 .account-prizes__main .card {
   display: block;
   position: relative;
   background: rgba(0, 0, 0, 0.6);
-  border: 1px solid #ffffff;
+  border: 1px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 40px;
 }
@@ -4148,37 +4120,42 @@ svg {
 }
 .account-prizes__main .card_primary {
   flex-basis: 100%;
-  min-height: 488px;
+  height: 488px;
   margin: 0 0 106px 0;
 }
 @media (max-width: 1199px) {
   .account-prizes__main .card_primary {
-    min-height: 443px;
+    height: 443px;
     margin: 0 0 20px 0;
   }
 }
 @media (max-width: 959px) {
   .account-prizes__main .card_primary {
-    min-height: 828px;
+    height: 828px;
   }
 }
 .account-prizes__main .card_week {
   flex-basis: 568px;
-  min-height: 398px;
+  height: 376px;
   margin: 0;
 }
 @media (max-width: 1199px) {
   .account-prizes__main .card_week {
     flex-basis: 460px;
-    min-height: 376px;
-    margin: 0;
   }
 }
 @media (max-width: 959px) {
   .account-prizes__main .card_week {
     flex-basis: 100%;
-    min-height: 661px;
-    margin: 0 0 20px 0;
+    height: 610px;
+  }
+  .account-prizes__main .card_week:last-of-type {
+    border: none;
+    background: none;
+    position: absolute;
+    bottom: 250px;
+    height: 300px;
+    width: 280px;
   }
 }
 .account-prizes__main .text {
@@ -4188,7 +4165,7 @@ svg {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .account-prizes__main .text.title_primary {
   font-family: "PF Din Text Cond Pro", sans-serif;
@@ -4235,19 +4212,19 @@ svg {
   font-style: normal;
   font-weight: 400;
   line-height: 1.125;
-  font-size: 30px;
-  top: 77px;
+  font-size: 28px;
+  top: 554px;
+  z-index: 1;
 }
 @media (max-width: 1199px) {
   .account-prizes__main .text.title_secondary {
-    font-size: 28px;
-    top: 76px;
+    top: 480px;
   }
 }
 @media (max-width: 959px) {
   .account-prizes__main .text.title_secondary {
     font-size: 24px;
-    top: 56px;
+    top: 906px;
   }
 }
 .account-prizes__main .text.subtitle_secondary {
@@ -4317,11 +4294,11 @@ svg {
   }
 }
 .account-prizes__main .images_week {
-  width: 640px;
+  width: 140px;
 }
 @media (max-width: 1199px) {
   .account-prizes__main .images_week {
-    width: 540px;
+    width: 140px;
   }
 }
 @media (max-width: 959px) {
@@ -4330,17 +4307,6 @@ svg {
   }
 }
 .account-prizes__main .images_week img {
-  height: 140px;
-}
-@media (max-width: 959px) {
-  .account-prizes__main .images_week img:not(:last-of-type) {
-    margin-bottom: 25px;
-  }
-}
-.account-prizes__main .images_day {
-  width: 140px;
-}
-.account-prizes__main .images_day img {
   height: 140px;
 }
 
