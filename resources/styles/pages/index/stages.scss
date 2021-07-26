@@ -1,11 +1,7 @@
 .index-stages {
-    height: 760px;
-
-    @media (max-width: $md_max) {
-        height: 680px;
-    }
+    height: 278px;
 
     @media (max-width: $sm_max) {
-        height: 1138px;
+        height: 877px;
     }
 }

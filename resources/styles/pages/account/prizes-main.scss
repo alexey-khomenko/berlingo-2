@@ -1,7 +1,7 @@
 .account-prizes__main {
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 540px;
+    top: 504px;
 
     @media (max-width: $md_max) {
         top: 480px;
@@ -14,12 +14,9 @@
     .content {
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
         align-items: stretch;
         height: 926px;
-
-        @media (max-width: $md_max) {
-            height: 839px;
-        }
 
         @media (max-width: $sm_max) {
             height: 1865px;
@@ -41,7 +38,7 @@
         &_primary {
             flex-basis: 100%;
             min-height: 488px;
-            margin: 0 0 40px 0;
+            margin: 0 0 106px 0;
 
             @media (max-width: $md_max) {
                 min-height: 443px;
@@ -54,35 +51,20 @@
         }
 
         &_week {
-            flex-basis: 760px;
+            flex-basis: 568px;
             min-height: 398px;
-            margin: 0 40px 0 0;
+            margin: 0;
 
             @media (max-width: $md_max) {
-                flex-basis: 620px;
+                flex-basis: 460px;
                 min-height: 376px;
-                margin: 0 20px 0 0;
+                margin: 0;
             }
 
             @media (max-width: $sm_max) {
                 flex-basis: 100%;
                 min-height: 661px;
                 margin: 0 0 20px 0;
-            }
-        }
-
-        &_day {
-            flex-basis: 360px;
-            min-height: 398px;
-
-            @media (max-width: $md_max) {
-                flex-basis: 300px;
-                min-height: 376px;
-            }
-
-            @media (max-width: $sm_max) {
-                flex-basis: 100%;
-                min-height: 336px;
             }
         }
     }

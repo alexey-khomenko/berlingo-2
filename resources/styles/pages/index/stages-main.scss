@@ -9,83 +9,52 @@
         font-family: "PF Din Text Cond Pro", sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 28px;
-        line-height: 34px;
-        width: 200px;
-
-        @media (max-width: $md_max) {
-            font-size: 22px;
-            line-height: 26.4px;
-            width: 150px;
-        }
-
-        @media (max-width: $sm_max) {
-            font-size: 18px;
-            line-height: 21.6px;
-            width: 130px;
-        }
+        font-size: 18px;
+        line-height: 22px;
+        width: 100px;
 
         &_one {
             transform: translate(-50%, -50%);
-            top: 182px;
-            left: 380px;
+            top: 122px;
+            left: 270px;
 
             @media (max-width: $md_max) {
-                top: 158px;
-                left: 315px;
+                left: 211px;
             }
 
             @media (max-width: $sm_max) {
-                top: 130px;
-                left: 230px;
+                top: 160px;
+                left: 214px;
             }
         }
 
         &_two {
             transform: translate(-50%, -50%);
-            top: 524px;
-            left: 460px;
+            top: 142px;
+            left: 612px;
 
             @media (max-width: $md_max) {
-                top: 456px;
-                left: 385px;
+                left: 553px;
             }
 
             @media (max-width: $sm_max) {
-                top: 440px;
-                left: 230px;
+                top: 436px;
+                left: 202px;
             }
         }
 
         &_three {
             transform: translate(50%, -50%);
-            top: 270px;
-            right: 180px;
+            top: 160px;
+            right: 238px;
 
             @media (max-width: $md_max) {
-                top: 245px;
-                right: 145px;
+                right: 76px;
             }
 
             @media (max-width: $sm_max) {
                 top: 770px;
-                right: 40px;
-            }
-        }
-
-        &_four {
-            transform: translate(50%, -50%);
-            top: 610px;
-            right: 100px;
-
-            @media (max-width: $md_max) {
-                top: 555px;
-                right: 75px;
-            }
-
-            @media (max-width: $sm_max) {
-                top: 1070px;
-                right: 30px;
+                right: 68px;
             }
         }
 
