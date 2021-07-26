@@ -1,13 +1,13 @@
 .account-prizes__back {
     right: 50%;
     top: 0;
-    transform: translateX(639px);
+    transform: translateX(770px);
 
     @media (max-width: $md_max) {
-        transform: translateX(576px);
+        transform: translateX(700px);
     }
 
     @media (max-width: $sm_max) {
-        transform: translateX(386px);
+        transform: translateX(393px);
     }
 }

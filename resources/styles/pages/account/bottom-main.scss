@@ -47,22 +47,20 @@
             font-family: "PF Din Text Cond Pro", sans-serif;
             font-style: normal;
             font-weight: 400;
-            font-size: 24px;
-            line-height: 29px;
+            font-size: 48px;
+            line-height: 58px;
             top: 169px;
 
             @media (max-width: $md_max) {
-                width: 376px;
-                font-size: 24px;
-                line-height: 29px;
+                font-size: 36px;
+                line-height: 43px;
                 top: 102px;
             }
 
             @media (max-width: $sm_max) {
-                width: 280px;
-                font-size: 18px;
-                line-height: 22px;
-                top: 70px;
+                font-size: 24px;
+                line-height: 29px;
+                top: 75px;
             }
         }
 
@@ -75,7 +73,7 @@
             background: linear-gradient(180deg, #FF9C47 0%, #E600C6 100%);
             text-decoration: none;
             top: 278px;
-            width: 368px;
+            width: 185px;
             height: 80px;
 
             @media (max-width: $md_max) {
@@ -105,24 +103,6 @@
 
                 @media (max-width: $sm_max) {
                     font-size: 14px;
-                }
-
-                &:nth-child(1) {
-                    display: block;
-                }
-
-                &:nth-child(2) {
-                    display: none;
-                }
-
-                @media (max-width: $sm_max) {
-                    &:nth-child(1) {
-                        display: none;
-                    }
-
-                    &:nth-child(2) {
-                        display: block;
-                    }
                 }
             }
         }
