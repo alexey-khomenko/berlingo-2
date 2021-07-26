@@ -1,0 +1,15 @@
+.account-header__back {
+    right: 50%;
+    top: -290px;
+    transform: translateX(-35px);
+
+    @media (max-width: $md_max) {
+        top: -267px;
+        transform: translateX(35px);
+    }
+
+    @media (max-width: $sm_max) {
+        top: -113px;
+        transform: translateX(126px);
+    }
+}

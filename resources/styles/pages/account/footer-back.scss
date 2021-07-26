@@ -1,0 +1,15 @@
+.account-footer__back {
+    left: 50%;
+    top: -398px;
+    transform: translateX(0);
+
+    @media (max-width: $md_max) {
+        top: -304px;
+        transform: translateX(0);
+    }
+
+    @media (max-width: $sm_max) {
+        top: -232px;
+        transform: translateX(-320px);
+    }
+}

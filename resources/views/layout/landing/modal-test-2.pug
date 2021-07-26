@@ -1,0 +1,38 @@
+section(class="modal modal_test", data-modal-name="test_2", data-modal-important="on")
+
+    div(class="modal__body-0")
+        div(class="modal__body-1")
+
+            div(class="modal__body-2")
+                include modal--close
+
+                div(class="title")
+                    | Шаг 1/4
+
+                div(class="subtitle")
+                    | Выбери знак, который тебе больше нравится
+
+                form()
+                    input(type="radio", name="step_1", value="10", id="i-1_1")
+                    label(for="i-1_1")
+                        img(alt="", src="images/modal-test-2-1.png", data-selected="off")
+                        img(alt="", src="images/modal-test-2-1-selected.png", data-selected="on")
+
+                    input(type="radio", name="step_1", value="20", id="i-1_2")
+                    label(for="i-1_2")
+                        img(alt="", src="images/modal-test-2-2.png", data-selected="off")
+                        img(alt="", src="images/modal-test-2-2-selected.png", data-selected="on")
+
+                    input(type="radio", name="step_1", value="30", id="i-1_3")
+                    label(for="i-1_3")
+                        img(alt="", src="images/modal-test-2-3.png", data-selected="off")
+                        img(alt="", src="images/modal-test-2-3-selected.png", data-selected="on")
+
+                    input(type="radio", name="step_1", value="40", id="i-1_4")
+                    label(for="i-1_4")
+                        img(alt="", src="images/modal-test-2-4.png", data-selected="off")
+                        img(alt="", src="images/modal-test-2-4-selected.png", data-selected="on")
+
+                a(href="#", class="button", data-modal-open="test_3", data-disabled="on")
+                    span
+                        | Дальше

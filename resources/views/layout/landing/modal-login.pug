@@ -1,0 +1,38 @@
+section(class="modal modal_auth", data-modal-name="login", data-modal-important="off")
+
+    div(class="modal__body-0")
+        div(class="modal__body-1")
+
+            div(class="modal__body-2")
+                include modal--close
+
+                div(class="titles")
+                    span(class="title")
+                        | Авторизация
+                    span(class="center")
+                        | или
+                    a(href="#", data-modal-open="register")
+                        | регистрация
+
+                div(class="subtitles")
+                    div(class="subtitles__left")
+                        | Пожалуйста, авторизуйся, чтобы войти в личный кабинет и зарегистрировать чек
+                    div(class="subtitles__right")
+                        | Ещё нет личного кабинета?
+                        |
+                        a(href="#", data-modal-open="register")
+                            | Зарегистрируйся
+
+                form(class="form")
+
+                    div(class="form__inputs")
+
+                        label(class="form__input")
+                            input(type="text", name="login-email", maxlength="200", placeholder="Введи свой e-mail *")
+
+                        label(class="form__input")
+                            input(type="password", name="login-password", maxlength="200", placeholder="Введи пароль *")
+
+                    button(type="submit", class="button")
+                        span
+                            | Войти

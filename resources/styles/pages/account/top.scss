@@ -1,0 +1,11 @@
+.account-top {
+    height: 392px;
+
+    @media (max-width: $md_max) {
+        height: 318px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 309px;
+    }
+}

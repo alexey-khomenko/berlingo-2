@@ -1,0 +1,47 @@
+.modal_test {
+
+    .title {
+        display: block;
+        position: relative;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+
+        @media (max-width: $sm_max) {
+            width: auto !important;
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: 1;
+                top: -20px;
+                left: -20px;
+                right: -20px;
+                height: 1px;
+                background-color: #000000;
+            }
+
+            br {
+                display: none;
+            }
+        }
+    }
+
+    .subtitle {
+        display: block;
+        color: #000000;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+
+        @media (max-width: $sm_max) {
+            width: auto !important;
+        }
+    }
+
+    .text {
+        display: block;
+        position: absolute;
+    }
+}

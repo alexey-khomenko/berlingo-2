@@ -1,0 +1,23 @@
+.account-footer {
+    height: 197px;
+
+    @media (max-width: $md_max) {
+        height: 149px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 274px;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 12;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: #ffffff;
+    }
+}

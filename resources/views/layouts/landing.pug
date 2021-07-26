@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="viewport", content="initial-scale=1.0, width=device-width")
+        link(href="js/scripts.js", rel="preload", as="script")
+        include ../partials/layouts/favicons
+        title
+            block title
+        style
+            | header {visibility: hidden;}
+        link(rel="stylesheet", href="css/styles.css")
+    body
+        div(class="wrapper-outer")
+            div(class="wrapper-inner")
+                block wrapper
+
+        include ../layout/landing/shadow
+
+        script(src="js/scripts.js", defer='defer')

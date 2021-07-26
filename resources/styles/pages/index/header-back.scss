@@ -1,0 +1,14 @@
+.index-header__back {
+    right: 50%;
+    top: -230px;
+    transform: translateX(156px);
+
+    @media (max-width: $md_max) {
+        top: -160px;
+        transform: translateX(112px);
+    }
+
+    @media (max-width: $sm_max) {
+        transform: translateX(230px);
+    }
+}

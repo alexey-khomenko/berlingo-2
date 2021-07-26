@@ -1,0 +1,10 @@
+import './misc';
+import './modals';
+import './menu';
+import './anchors';
+import './retails';
+import './slider';
+import './tabs';
+import './test';
+import './receipt';
+import './auth';

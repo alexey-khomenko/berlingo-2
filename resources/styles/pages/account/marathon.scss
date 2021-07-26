@@ -1,0 +1,11 @@
+.account-marathon {
+    height: 700px;
+
+    @media (max-width: $md_max) {
+        height: 570px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 664px;
+    }
+}

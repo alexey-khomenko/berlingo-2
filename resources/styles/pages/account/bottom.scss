@@ -1,0 +1,11 @@
+.account-bottom {
+    height: 418px;
+
+    @media (max-width: $md_max) {
+        height: 324px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 407px;
+    }
+}

@@ -1,0 +1,15 @@
+.account-bottom__back {
+    left: 50%;
+    top: 176px;
+    transform: translateX(-113px);
+
+    @media (max-width: $md_max) {
+        top: 86px;
+        transform: translateX(-63px);
+    }
+
+    @media (max-width: $sm_max) {
+        top: 89px;
+        transform: translateX(79px);
+    }
+}

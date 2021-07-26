@@ -1,0 +1,15 @@
+.account-balls__back {
+    right: 50%;
+    top: 134px;
+    transform: translateX(-221px);
+
+    @media (max-width: $md_max) {
+        top: 124px;
+        transform: translateX(-171px);
+    }
+
+    @media (max-width: $sm_max) {
+        top: 126px;
+        transform: translateX(140px);
+    }
+}

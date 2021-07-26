@@ -1,0 +1,410 @@
+.pens-content {
+    height: 4090px;
+
+    @media (max-width: $md_max_pens) {
+        height: 2180px;
+    }
+
+    @media (max-width: $sm_max_pens) {
+        height: 5650px;
+    }
+
+    .pens-content__back {
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @media (max-width: $sm_max_pens) {
+            top: -40px;
+        }
+    }
+
+    .pens-content__main {
+        margin: 0 auto;
+        text-align: left;
+
+        @media (max-width: $sm_max_pens) {
+            text-align: center;
+        }
+
+        .text {
+            font-family: "PF Din Text Cond Pro", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+
+            &_lg {
+                text-transform: uppercase;
+                font-size: 64px;
+                line-height: 77px;
+
+                @media (max-width: $md_max_pens) {
+                    font-size: 34px;
+                    line-height: 41px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    font-size: 36px;
+                    line-height: 43px;
+                }
+            }
+
+            &_md {
+                font-size: 36px;
+                line-height: 43px;
+
+                @media (max-width: $md_max_pens) {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+            }
+
+            &_sm {
+                font-size: 22px;
+                line-height: 26px;
+
+                @media (max-width: $md_max_pens) {
+                    font-size: 11px;
+                    line-height: 13px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+
+            &_ffffff {
+                color: #ffffff;
+            }
+
+            &_000000 {
+                color: #000000;
+            }
+
+            &_79c942 {
+                color: #79c942;
+            }
+
+            &_ed1b5c {
+                color: #ed1b5c;
+            }
+
+            &_29aae3 {
+                color: #29aae3;
+            }
+
+            &_f8931f {
+                color: #f8931f;
+            }
+        }
+
+        .title {
+            margin-bottom: 9px;
+
+            @media (max-width: $md_max_pens) {
+                margin-bottom: 5px;
+            }
+
+            @media (max-width: $sm_max_pens) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .the-quality-of-writing {
+            &-0 {
+                display: block;
+                position: absolute;
+                width: 468px;
+                right: 112px;
+                top: 156px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 250px;
+                    right: 100px;
+                    top: 48px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 456px;
+                }
+            }
+
+            &-1 {
+                display: block;
+                position: absolute;
+                width: 680px;
+                right: 104px;
+                top: 344px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 360px;
+                    right: 90px;
+                    top: 133px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 564px;
+                }
+            }
+
+            &-2 {
+                display: block;
+                position: absolute;
+                width: 760px;
+                right: 120px;
+                top: 572px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 400px;
+                    right: 106px;
+                    top: 250px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 962px;
+
+                    .title {
+                        margin-bottom: 200px;
+                    }
+                }
+            }
+
+            &-3 {
+                display: block;
+                position: absolute;
+                width: 620px;
+                right: 194px;
+                top: 815px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 320px;
+                    right: 145px;
+                    top: 383px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 1452px;
+
+                    .title {
+                        margin-bottom: 200px;
+                    }
+                }
+            }
+        }
+
+        .ergonomics-and-comfort {
+            &-0 {
+                display: block;
+                position: absolute;
+                width: 630px;
+                right: 150px;
+                top: 1146px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 336px;
+                    right: 102px;
+                    top: 574px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 2380px;
+                }
+            }
+
+            &-1 {
+                display: block;
+                position: absolute;
+                width: 764px;
+                right: 42px;
+                top: 1368px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 386px;
+                    right: 78px;
+                    top: 676px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 2520px;
+                }
+            }
+
+            &-2 {
+                display: block;
+                position: absolute;
+                width: 598px;
+                right: 42px;
+                top: 1614px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 302px;
+                    right: 78px;
+                    top: 810px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 2865px;
+                }
+            }
+
+            &-3 {
+                display: block;
+                position: absolute;
+                width: 990px;
+                right: 45px;
+                top: 1832px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 496px;
+                    right: 78px;
+                    top: 919px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 320px;
+                    right: -20px;
+                    top: 3040px;
+
+                    .title {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .design {
+            &-0 {
+                display: block;
+                position: absolute;
+                width: 208px;
+                right: 515px;
+                top: 2145px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 110px;
+                    right: 313px;
+                    top: 1095px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 4185px;
+                }
+            }
+
+            &-1 {
+                display: block;
+                position: absolute;
+                width: 390px;
+                right: 625px;
+                top: 2406px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 215px;
+                    right: 375px;
+                    top: 1227px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 320px;
+                    right: -20px;
+                    top: 4280px;
+
+                    .title {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .additional-benefits {
+            &-0 {
+                display: block;
+                position: absolute;
+                width: 884px;
+                right: 140px;
+                top: 3080px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 470px;
+                    right: 96px;
+                    top: 1635px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 4620px;
+                }
+            }
+
+            &-1 {
+                display: block;
+                position: absolute;
+                width: 482px;
+                right: 533px;
+                top: 3390px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 270px;
+                    right: 308px;
+                    top: 1812px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 280px;
+                    right: 0;
+                    top: 4940px;
+
+                    .title {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            &-2 {
+                display: block;
+                position: absolute;
+                width: 1353px;
+                right: 80px;
+                top: 3765px;
+
+                @media (max-width: $md_max_pens) {
+                    width: 700px;
+                    right: 90px;
+                    top: 2002px;
+                }
+
+                @media (max-width: $sm_max_pens) {
+                    width: 320px;
+                    right: -20px;
+                    top: 5220px;
+
+                    .title {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

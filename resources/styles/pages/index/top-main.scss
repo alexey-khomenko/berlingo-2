@@ -1,0 +1,104 @@
+.index-top__main {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .text {
+        transform: translateY(-50%);
+        position: absolute;
+        display: block;
+        left: 0;
+        color: #ffffff;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        top: 138px;
+
+        @media (max-width: $md_max) {
+            font-size: 36px;
+            line-height: 43px;
+            top: 103px;
+        }
+
+        @media (max-width: $sm_max) {
+            font-size: 22px;
+            line-height: 26px;
+            top: 66px;
+        }
+    }
+
+    .button {
+        transform: translateY(-50%);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 99999px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        text-decoration: none;
+        left: 0;
+        width: 368px;
+        height: 80px;
+
+        @media (max-width: $sm_max) {
+            width: 254px;
+            height: 60px;
+        }
+
+        &_check {
+            background-color: #ffffff;
+            top: 276px;
+
+            @media (max-width: $md_max) {
+                top: 226px;
+            }
+
+            @media (max-width: $sm_max) {
+                top: 162px;
+            }
+
+            span {
+                color: #000000;
+            }
+        }
+
+        &_pen {
+            background-color: #000000;
+            top: 396px;
+
+            @media (max-width: $md_max) {
+                top: 346px;
+            }
+
+            @media (max-width: $sm_max) {
+                top: 242px;
+            }
+
+            span {
+                color: #ffffff;
+            }
+        }
+
+        &:hover span, &:focus span {
+            transform: scale(1.05, 1.15);
+        }
+
+        span {
+            padding-top: 3px;
+            transition: transform 500ms ease;
+            text-transform: uppercase;
+            font-family: "Bebas Neue", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 0.01em;
+            font-size: 20px;
+
+            @media (max-width: $sm_max) {
+                font-size: 14px;
+            }
+        }
+    }
+}

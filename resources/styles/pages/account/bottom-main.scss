@@ -1,0 +1,195 @@
+.account-bottom__main {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .element {
+        position: absolute;
+        transform: translateY(-50%);
+        width: 370px;
+
+        @media (max-width: $md_max) {
+            width: 300px;
+        }
+
+        @media (max-width: $sm_max) {
+            width: 280px;
+        }
+
+        &_text {
+            right: 0;
+            display: block;
+            color: #ffffff;
+            font-family: "PF Din Text Cond Pro", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            top: 169px;
+
+            @media (max-width: $md_max) {
+                font-size: 18px;
+                line-height: 22px;
+                top: 102px;
+            }
+
+            @media (max-width: $sm_max) {
+                font-size: 16px;
+                line-height: 19px;
+                top: 248px;
+            }
+        }
+
+        &_title {
+            left: 0;
+            display: block;
+            color: #ffffff;
+            font-family: "PF Din Text Cond Pro", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            top: 169px;
+
+            @media (max-width: $md_max) {
+                width: 376px;
+                font-size: 24px;
+                line-height: 29px;
+                top: 102px;
+            }
+
+            @media (max-width: $sm_max) {
+                width: 280px;
+                font-size: 18px;
+                line-height: 22px;
+                top: 70px;
+            }
+        }
+
+        &_button {
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 99999px;
+            background: linear-gradient(180deg, #FF9C47 0%, #E600C6 100%);
+            text-decoration: none;
+            top: 278px;
+            width: 368px;
+            height: 80px;
+
+            @media (max-width: $md_max) {
+                top: 204px;
+            }
+
+            @media (max-width: $sm_max) {
+                top: 139px;
+                width: 126px;
+                height: 60px;
+            }
+
+            &:hover span, &:focus span {
+                transform: scale(1.05, 1.15);
+            }
+
+            span {
+                padding-top: 3px;
+                transition: transform 500ms ease;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-family: "Bebas Neue", sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                letter-spacing: 0.01em;
+                font-size: 20px;
+
+                @media (max-width: $sm_max) {
+                    font-size: 14px;
+                }
+
+                &:nth-child(1) {
+                    display: block;
+                }
+
+                &:nth-child(2) {
+                    display: none;
+                }
+
+                @media (max-width: $sm_max) {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+
+                    &:nth-child(2) {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        &_socials {
+            right: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            top: 278px;
+
+            @media (max-width: $md_max) {
+                top: 204px;
+            }
+
+            @media (max-width: $sm_max) {
+                top: 317px;
+            }
+
+            .link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 99999px;
+                background-color: #ffffff;
+                text-decoration: none;
+                width: 80px;
+                height: 80px;
+
+                @media (max-width: $sm_max) {
+                    width: 60px;
+                    height: 60px;
+                }
+
+                &:not(:last-of-type) {
+                    margin-right: 20px;
+                }
+
+                &_vk svg {
+                    width: 22px;
+                    height: 12px;
+
+                    @media (max-width: $sm_max) {
+                        width: 18px;
+                        height: 10px;
+                    }
+                }
+
+                &_instagram svg {
+                    width: 20px;
+                    height: 20px;
+
+                    @media (max-width: $sm_max) {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+
+                &:hover svg, &:focus svg {
+                    transform: scale(1.2);
+                }
+
+                svg {
+                    transition: transform 500ms ease;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

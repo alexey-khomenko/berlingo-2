@@ -1,0 +1,11 @@
+.index-prize {
+    height: 790px;
+
+    @media (max-width: $md_max) {
+        height: 647px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 722px;
+    }
+}

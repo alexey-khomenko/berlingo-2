@@ -1,0 +1,106 @@
+.account-balls__main {
+    margin: 0 auto;
+    height: 565px;
+    padding-top: 23px;
+    box-sizing: border-box;
+
+    @media (max-width: $md_max) {
+        height: 451px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 504px;
+    }
+
+    .title {
+        display: block;
+        color: #ffffff;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        padding-top: 10px;
+
+        @media (max-width: $md_max) {
+            font-size: 36px;
+            line-height: 43px;
+        }
+
+        @media (max-width: $sm_max) {
+            font-size: 24px;
+            line-height: 29px;
+            padding-top: 20px;
+        }
+    }
+
+    .balls-number, .balls-text, .text {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        display: block;
+        color: #ffffff;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .balls-number {
+        text-align: center;
+        font-size: 120px;
+        line-height: 144px;
+        width: 260px;
+        transform: translate(-530px, -83px);
+
+        @media (max-width: $md_max) {
+            font-size: 90px;
+            line-height: 108px;
+            width: 220px;
+            transform: translate(-430px, -42px);
+        }
+
+        @media (max-width: $sm_max) {
+            transform: translate(-110px, -70px);
+        }
+    }
+
+    .balls-text {
+        text-align: center;
+        font-size: 48px;
+        line-height: 58px;
+        width: 260px;
+        transform: translate(-530px, 30px);
+
+        @media (max-width: $md_max) {
+            font-size: 36px;
+            line-height: 43px;
+            width: 220px;
+            transform: translate(-430px, 45px);
+        }
+
+        @media (max-width: $sm_max) {
+            transform: translate(-110px, 18px);
+        }
+    }
+
+    .text {
+        font-size: 30px;
+        line-height: 36px;
+        width: 560px;
+        transform: translate(-180px, -30px);
+
+        @media (max-width: $md_max) {
+            font-size: 24px;
+            line-height: 29px;
+            width: 540px;
+            transform: translate(-69px, -2px);
+        }
+
+        @media (max-width: $sm_max) {
+            font-size: 18px;
+            line-height: 22px;
+            width: 280px;
+            transform: translate(-140px, 156px);
+        }
+    }
+}

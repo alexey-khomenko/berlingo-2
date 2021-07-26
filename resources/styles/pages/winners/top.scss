@@ -1,0 +1,11 @@
+.winners-top {
+    height: 252px;
+
+    @media (max-width: $md_max) {
+        height: 198px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 129px;
+    }
+}

@@ -1,0 +1,11 @@
+.account-prizes {
+    height: 1080px;
+
+    @media (max-width: $md_max) {
+        height: 961px;
+    }
+
+    @media (max-width: $sm_max) {
+        height: 1930px;
+    }
+}
