@@ -2015,12 +2015,12 @@ svg {
 .index-top__back {
   right: 50%;
   top: -190px;
-  transform: translateX(540px);
+  transform: translateX(710px);
 }
 @media (max-width: 1199px) {
   .index-top__back {
     top: -190px;
-    transform: translateX(650px);
+    transform: translateX(820px);
   }
 }
 @media (max-width: 959px) {
@@ -2433,7 +2433,7 @@ svg {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  bottom: 59px;
+  bottom: 30px;
 }
 @media (max-width: 959px) {
   .index-prizes__main .images {
@@ -2453,45 +2453,44 @@ svg {
 }
 @media (max-width: 959px) {
   .index-prizes__main .images_primary {
-    width: 180px;
-    margin-left: -20px;
+    width: 220px;
   }
 }
 .index-prizes__main .images_primary img {
-  height: 270px;
+  height: 300px;
 }
 @media (max-width: 1199px) {
   .index-prizes__main .images_primary img {
-    height: 240px;
+    height: 280px;
   }
 }
 @media (max-width: 959px) {
   .index-prizes__main .images_primary img {
-    height: 200px;
+    height: 220px;
   }
   .index-prizes__main .images_primary img:not(:last-of-type) {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 .index-prizes__main .images_week {
-  width: 270px;
+  width: 300px;
 }
 @media (max-width: 959px) {
   .index-prizes__main .images_week {
-    width: 200px;
+    width: 220px;
   }
 }
 .index-prizes__main .images_week img {
-  height: 270px;
+  height: 300px;
 }
 @media (max-width: 959px) {
   .index-prizes__main .images_week img {
-    height: 200px;
+    height: 220px;
   }
 }
 @media (max-width: 959px) {
   .index-prizes__main .first .images_week {
-    bottom: 290px !important;
+    bottom: 275px !important;
   }
 }
 
@@ -4156,7 +4155,7 @@ svg {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  bottom: 59px;
+  bottom: 30px;
 }
 @media (max-width: 959px) {
   .account-prizes__main .images {
@@ -4176,45 +4175,44 @@ svg {
 }
 @media (max-width: 959px) {
   .account-prizes__main .images_primary {
-    width: 180px;
-    margin-left: -20px;
+    width: 220px;
   }
 }
 .account-prizes__main .images_primary img {
-  height: 270px;
+  height: 300px;
 }
 @media (max-width: 1199px) {
   .account-prizes__main .images_primary img {
-    height: 240px;
+    height: 280px;
   }
 }
 @media (max-width: 959px) {
   .account-prizes__main .images_primary img {
-    height: 200px;
+    height: 220px;
   }
   .account-prizes__main .images_primary img:not(:last-of-type) {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 .account-prizes__main .images_week {
-  width: 270px;
+  width: 300px;
 }
 @media (max-width: 959px) {
   .account-prizes__main .images_week {
-    width: 200px;
+    width: 220px;
   }
 }
 .account-prizes__main .images_week img {
-  height: 270px;
+  height: 300px;
 }
 @media (max-width: 959px) {
   .account-prizes__main .images_week img {
-    height: 200px;
+    height: 220px;
   }
 }
 @media (max-width: 959px) {
   .account-prizes__main .first .images_week {
-    bottom: 290px !important;
+    bottom: 275px !important;
   }
 }
 

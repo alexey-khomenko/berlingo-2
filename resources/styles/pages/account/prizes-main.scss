@@ -152,7 +152,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    bottom: 59px;
+    bottom: 30px;
 
     @media (max-width: $sm_max) {
       bottom: 39px;
@@ -170,39 +170,38 @@
       }
 
       @media (max-width: $sm_max) {
-        width: 180px;
-        margin-left: -20px;
+        width: 220px;
       }
 
       img {
-        height: 270px;
+        height: 300px;
 
         @media (max-width: $md_max) {
-          height: 240px;
+          height: 280px;
         }
 
         @media (max-width: $sm_max) {
-          height: 200px;
+          height: 220px;
 
           &:not(:last-of-type) {
-            margin-bottom: 40px;
+            margin-bottom: 10px;
           }
         }
       }
     }
 
     &_week {
-      width: 270px;
+      width: 300px;
 
       @media (max-width: $sm_max) {
-        width: 200px;
+        width: 220px;
       }
 
       img {
-        height: 270px;
+        height: 300px;
 
         @media (max-width: $sm_max) {
-          height: 200px;
+          height: 220px;
         }
       }
     }
@@ -210,7 +209,7 @@
 
   @media (max-width: $sm_max) {
     .first .images_week {
-      bottom: 290px !important;
+      bottom: 275px !important;
     }
   }
 }

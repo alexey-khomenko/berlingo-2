@@ -1,11 +1,11 @@
 .index-top__back {
   right: 50%;
   top: -190px;
-  transform: translateX(540px);
+  transform: translateX(710px);
 
   @media (max-width: $md_max) {
     top: -190px;
-    transform: translateX(650px);
+    transform: translateX(820px);
   }
 
   @media (max-width: $sm_max) {
