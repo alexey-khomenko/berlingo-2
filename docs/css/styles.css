@@ -2447,24 +2447,6 @@ svg {
     top: 906px;
   }
 }
-.index-prizes__main .text.subtitle_secondary {
-  font-family: "PF Din Text Cond Pro", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.125;
-  font-size: 18px;
-  top: 126px;
-}
-@media (max-width: 1199px) {
-  .index-prizes__main .text.subtitle_secondary {
-    top: 124px;
-  }
-}
-@media (max-width: 959px) {
-  .index-prizes__main .text.subtitle_secondary {
-    top: 104px;
-  }
-}
 .index-prizes__main .images {
   position: absolute;
   left: 50%;
@@ -4227,24 +4209,6 @@ svg {
     top: 906px;
   }
 }
-.account-prizes__main .text.subtitle_secondary {
-  font-family: "PF Din Text Cond Pro", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.125;
-  font-size: 18px;
-  top: 126px;
-}
-@media (max-width: 1199px) {
-  .account-prizes__main .text.subtitle_secondary {
-    top: 124px;
-  }
-}
-@media (max-width: 959px) {
-  .account-prizes__main .text.subtitle_secondary {
-    top: 104px;
-  }
-}
 .account-prizes__main .images {
   position: absolute;
   left: 50%;
@@ -4598,27 +4562,27 @@ svg {
 .account-my__main .prizes .prize__image img {
   position: absolute;
 }
-.account-my__main .prizes .prize__image img.img-0 {
+.account-my__main .prizes .prize__image img.img-macbook {
   width: 190px;
   top: -15px;
   left: -5px;
 }
-.account-my__main .prizes .prize__image img.img-1 {
+.account-my__main .prizes .prize__image img.img-ipad {
   width: 160px;
   top: 3px;
   left: -1px;
 }
-.account-my__main .prizes .prize__image img.img-2 {
+.account-my__main .prizes .prize__image img.img-ozon {
   width: 170px;
   top: 0;
   left: 0;
 }
-.account-my__main .prizes .prize__image img.img-3 {
+.account-my__main .prizes .prize__image img.img-yandex {
   width: 160px;
   top: 0;
   left: 0;
 }
-.account-my__main .prizes .prize__image img.img-4 {
+.account-my__main .prizes .prize__image img.img-berlingo {
   width: 234px;
   top: -60px;
   left: -50px;
@@ -6437,61 +6401,61 @@ svg {
 .winners-tab .tabs__image img {
   position: absolute;
 }
-.winners-tab .tabs__image img.img-0 {
+.winners-tab .tabs__image img.img-macbook {
   width: 280px;
   top: -20px;
   left: -5px;
 }
 @media (max-width: 959px) {
-  .winners-tab .tabs__image img.img-0 {
+  .winners-tab .tabs__image img.img-macbook {
     width: 190px;
     top: -15px;
     left: -5px;
   }
 }
-.winners-tab .tabs__image img.img-1 {
+.winners-tab .tabs__image img.img-ipad {
   width: 250px;
   top: 0;
   left: -10px;
 }
 @media (max-width: 959px) {
-  .winners-tab .tabs__image img.img-1 {
+  .winners-tab .tabs__image img.img-ipad {
     width: 160px;
     top: 3px;
     left: -1px;
   }
 }
-.winners-tab .tabs__image img.img-2 {
+.winners-tab .tabs__image img.img-ozon {
   width: 260px;
   top: 0;
   left: 0;
 }
 @media (max-width: 959px) {
-  .winners-tab .tabs__image img.img-2 {
+  .winners-tab .tabs__image img.img-ozon {
     width: 170px;
     top: 0;
     left: 0;
   }
 }
-.winners-tab .tabs__image img.img-3 {
+.winners-tab .tabs__image img.img-yandex {
   width: 240px;
   top: 0;
   left: 0;
 }
 @media (max-width: 959px) {
-  .winners-tab .tabs__image img.img-3 {
+  .winners-tab .tabs__image img.img-yandex {
     width: 160px;
     top: 0;
     left: 0;
   }
 }
-.winners-tab .tabs__image img.img-4 {
+.winners-tab .tabs__image img.img-berlingo {
   width: 350px;
   top: -85px;
   left: -75px;
 }
 @media (max-width: 959px) {
-  .winners-tab .tabs__image img.img-4 {
+  .winners-tab .tabs__image img.img-berlingo {
     width: 234px;
     top: -60px;
     left: -50px;

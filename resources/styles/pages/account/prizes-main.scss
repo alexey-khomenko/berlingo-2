@@ -142,25 +142,6 @@
         }
       }
     }
-
-    &.subtitle {
-      &_secondary {
-        font-family: "PF Din Text Cond Pro", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.125;
-        font-size: 18px;
-        top: 126px;
-
-        @media (max-width: $md_max) {
-          top: 124px;
-        }
-
-        @media (max-width: $sm_max) {
-          top: 104px;
-        }
-      }
-    }
   }
 
   .images {
