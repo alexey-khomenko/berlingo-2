@@ -1,114 +1,79 @@
 .index-prize__main {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  margin: 0 auto;
+  box-sizing: border-box;
 
-    .title {
-        display: block;
-        position: absolute;
-        transform: translateY(-50%);
-        color: #ffffff;
-        font-family: "PF Din Text Cond Pro", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 58px;
-        top: 212px;
-        left: 100px;
-        width: 460px;
+  .swiper-container {
 
-        @media (max-width: $md_max) {
-            font-size: 36px;
-            line-height: 43px;
-            top: 180px;
-            left: 80px;
-            width: 380px;
-        }
+    .swiper-slide {
+      height: 428px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 140px 0 200px;
 
-        @media (max-width: $sm_max) {
-            font-size: 24px;
-            line-height: 29px;
-            top: 94px;
-            left: 0;
-            width: 280px;
-        }
-    }
+      @media (max-width: $md_max) {
+        padding: 0 80px 0 160px;
+      }
 
-    .text {
-        display: block;
-        position: absolute;
-        transform: translateY(-50%);
-        color: #ffffff;
-        font-family: "PF Din Text Cond Pro", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 29px;
-        top: 325px;
-        left: 100px;
-        width: 460px;
 
-        @media (max-width: $md_max) {
-            font-size: 24px;
-            line-height: 29px;
-            top: 255px;
-            left: 80px;
-            width: 460px;
-        }
 
-        @media (max-width: $sm_max) {
-            font-size: 18px;
-            line-height: 22px;
-            top: 173px;
-            left: 0;
-            width: 280px;
-        }
-    }
-
-    .button {
-        display: flex;
-        position: absolute;
-        transform: translateY(-50%);
-        justify-content: center;
-        align-items: center;
-        border-radius: 99999px;
-        background-color: #ffffff;
+      .text {
+        position: relative;
         text-decoration: none;
-        top: 468px;
-        left: 100px;
-        width: 253px;
-        height: 80px;
+        transition: transform 500ms ease;
+        color: #FFFFFF;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43.2px;
 
-        @media (max-width: $md_max) {
-            top: 368px;
-            left: 80px;
+        &:hover, &:focus {
+          transform: scale(1.05, 1.15);
         }
 
-        @media (max-width: $sm_max) {
-            top: 287px;
-            left: 0;
-            width: 173px;
-            height: 60px;
+        &::after {
+          position: absolute;
+          display: block;
+          bottom: -25px;
+          right: 0;
         }
 
-        &:hover span, &:focus span {
-            transform: scale(1.05, 1.15);
+        &-0::after {
+          content: url(../../../images/index-prize-main-slide-0.svg);
         }
 
-        span {
-            padding-top: 3px;
-            transition: transform 500ms ease;
-            color: #000000;
-            text-transform: uppercase;
-            font-family: "Bebas Neue", sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            letter-spacing: 0.01em;
-            font-size: 20px;
-
-            @media (max-width: $sm_max) {
-                font-size: 14px;
-            }
+        &-1::after {
+          content: url(../../../images/index-prize-main-slide-1.svg);
         }
+      }
+
+      .image {
+        text-decoration: none;
+
+
+        img {
+          width: auto;
+        }
+
+        &-0 img {
+          height: 428px;
+        }
+
+        &-1 {
+          height: 302px;
+        }
+      }
     }
+
+    .swiper-button-prev, .swiper-button-next {
+      color: #FFFFFF !important;
+      transition: transform 500ms ease;
+
+      &:hover, &:focus {
+        transform: scale(1.15, 1.15);
+      }
+    }
+  }
 }

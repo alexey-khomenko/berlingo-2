@@ -1,17 +1,21 @@
-const slides = document.querySelectorAll('.index-top__back[data-slider]');
+import Swiper from 'swiper';
+import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
 
-// if (slides.length) {
-//     let oldNumber = 0;
-//     const max = slides.length - 1;
-//
-//     let timerId = setTimeout(function tick() {
-//         let newNumber = oldNumber < max ? oldNumber + 1 : 0;
-//
-//         slides[oldNumber].dataset.hidden = 'on';
-//         slides[newNumber].dataset.hidden = 'off';
-//
-//         oldNumber = newNumber;
-//
-//         timerId = setTimeout(tick, 3200);
-//     }, 3200);
-// }
+import 'swiper/swiper-bundle.css';
+
+// configure Swiper to use modules
+SwiperCore.use([Navigation, Autoplay]);
+
+const swiper = new Swiper('.swiper-container', {
+  direction: 'horizontal',
+  loop: true,
+
+  // autoplay: {
+  //   delay: 3000,
+  // },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
