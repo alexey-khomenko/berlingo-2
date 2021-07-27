@@ -2369,11 +2369,11 @@ svg {
     flex-basis: 100%;
     height: 610px;
   }
-  .index-prizes__main .card_week:last-of-type {
+  .index-prizes__main .card_week.last {
     border: none;
     background: none;
     position: absolute;
-    bottom: 250px;
+    bottom: 0;
     height: 300px;
     width: 280px;
   }
@@ -2496,20 +2496,25 @@ svg {
   }
 }
 .index-prizes__main .images_week {
-  width: 140px;
-}
-@media (max-width: 1199px) {
-  .index-prizes__main .images_week {
-    width: 140px;
-  }
+  width: 270px;
 }
 @media (max-width: 959px) {
   .index-prizes__main .images_week {
-    width: 140px;
+    width: 200px;
   }
 }
 .index-prizes__main .images_week img {
-  height: 140px;
+  height: 270px;
+}
+@media (max-width: 959px) {
+  .index-prizes__main .images_week img {
+    height: 200px;
+  }
+}
+@media (max-width: 959px) {
+  .index-prizes__main .first .images_week {
+    bottom: 290px !important;
+  }
 }
 
 .index-prize {
@@ -4131,11 +4136,11 @@ svg {
     flex-basis: 100%;
     height: 610px;
   }
-  .account-prizes__main .card_week:last-of-type {
+  .account-prizes__main .card_week.last {
     border: none;
     background: none;
     position: absolute;
-    bottom: 250px;
+    bottom: 0;
     height: 300px;
     width: 280px;
   }
@@ -4258,20 +4263,25 @@ svg {
   }
 }
 .account-prizes__main .images_week {
-  width: 140px;
-}
-@media (max-width: 1199px) {
-  .account-prizes__main .images_week {
-    width: 140px;
-  }
+  width: 270px;
 }
 @media (max-width: 959px) {
   .account-prizes__main .images_week {
-    width: 140px;
+    width: 200px;
   }
 }
 .account-prizes__main .images_week img {
-  height: 140px;
+  height: 270px;
+}
+@media (max-width: 959px) {
+  .account-prizes__main .images_week img {
+    height: 200px;
+  }
+}
+@media (max-width: 959px) {
+  .account-prizes__main .first .images_week {
+    bottom: 290px !important;
+  }
 }
 
 .account-balls {

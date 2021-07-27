@@ -63,11 +63,11 @@
         flex-basis: 100%;
         height: 610px;
 
-        &:last-of-type {
+        &.last {
           border:none;
           background: none;
           position: absolute;
-          bottom: 250px;
+          bottom: 0;
           height: 300px;
           width: 280px;
         }
@@ -192,19 +192,25 @@
     }
 
     &_week {
-      width: 140px;
-
-      @media (max-width: $md_max) {
-        width: 140px;
-      }
+      width: 270px;
 
       @media (max-width: $sm_max) {
-        width: 140px;
+        width: 200px;
       }
 
       img {
-        height: 140px;
+        height: 270px;
+
+        @media (max-width: $sm_max) {
+          height: 200px;
+        }
       }
+    }
+  }
+
+  @media (max-width: $sm_max) {
+    .first .images_week {
+      bottom: 290px !important;
     }
   }
 }
