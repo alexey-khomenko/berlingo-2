@@ -1,11 +1,7 @@
 .index-top {
-    height: 780px;
-
-    @media (max-width: $md_max) {
-        height: 580px;
-    }
+    height: 532px;
 
     @media (max-width: $sm_max) {
-        height: 590px;
+        height: 778px;
     }
 }

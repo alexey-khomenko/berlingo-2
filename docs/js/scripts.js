@@ -1704,9 +1704,9 @@ swiper_core__WEBPACK_IMPORTED_MODULE_1__.default.use([swiper_core__WEBPACK_IMPOR
 var swiper = new swiper_core__WEBPACK_IMPORTED_MODULE_1__.default('.swiper-container', {
   direction: 'horizontal',
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  // },
+  autoplay: {
+    delay: 3000
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
