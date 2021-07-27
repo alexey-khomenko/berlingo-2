@@ -16,7 +16,10 @@
         padding: 0 80px 0 160px;
       }
 
-
+      @media (max-width: $sm_max) {
+        height: 128px;
+        padding: 0 28px;
+      }
 
       .text {
         position: relative;
@@ -29,6 +32,11 @@
         font-size: 36px;
         line-height: 43.2px;
 
+        @media (max-width: $sm_max) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
         &:hover, &:focus {
           transform: scale(1.05, 1.15);
         }
@@ -38,6 +46,10 @@
           display: block;
           bottom: -25px;
           right: 0;
+
+          @media (max-width: $sm_max) {
+            display: none;
+          }
         }
 
         &-0::after {
@@ -52,17 +64,24 @@
       .image {
         text-decoration: none;
 
-
         img {
           width: auto;
         }
 
         &-0 img {
           height: 428px;
+
+          @media (max-width: $sm_max) {
+            height: 122px;
+          }
         }
 
-        &-1 {
+        &-1 img {
           height: 302px;
+
+          @media (max-width: $sm_max) {
+            height: 98px;
+          }
         }
       }
     }
@@ -71,8 +90,26 @@
       color: #FFFFFF !important;
       transition: transform 500ms ease;
 
-      &:hover, &:focus {
-        transform: scale(1.15, 1.15);
+      @media (max-width: $sm_max) {
+          transform: scale(0.8, 0.5);
+      }
+
+      @media (min-width: #{$sm_max + 1px}) {
+        &:hover, &:focus {
+          transform: scale(1.15, 1.15);
+        }
+      }
+    }
+
+    .swiper-button-prev {
+      @media (max-width: $sm_max) {
+        left: -5px !important;
+      }
+    }
+
+    .swiper-button-next {
+      @media (max-width: $sm_max) {
+        right: -5px !important;
       }
     }
   }
