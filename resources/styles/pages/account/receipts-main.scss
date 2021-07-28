@@ -121,4 +121,19 @@
             }
         }
     }
+
+    .text {
+        display: block;
+        margin-top: 40px;
+        color: #ffffff;
+        font-family: "PF Din Text Cond Pro", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        @media (max-width: $sm_max) {
+            margin-top: 20px;
+        }
+    }
 }

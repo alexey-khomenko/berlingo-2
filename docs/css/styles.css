@@ -3967,6 +3967,21 @@ svg {
   line-height: 22px;
   margin: 0 39px 10px;
 }
+.account-receipts__main .text {
+  display: block;
+  margin-top: 40px;
+  color: #ffffff;
+  font-family: "PF Din Text Cond Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+@media (max-width: 959px) {
+  .account-receipts__main .text {
+    margin-top: 20px;
+  }
+}
 
 .account-prizes {
   height: 1080px;
