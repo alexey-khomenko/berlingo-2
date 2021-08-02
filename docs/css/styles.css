@@ -2031,7 +2031,7 @@ svg {
 }
 .index-top__back img {
   width: auto;
-  height: 775px;
+  height: 776px;
 }
 @media (max-width: 959px) {
   .index-top__back img {
@@ -2498,6 +2498,11 @@ svg {
   margin: 0 auto;
   box-sizing: border-box;
 }
+@media (max-width: 959px) {
+  .index-prize__main {
+    margin-bottom: 15px;
+  }
+}
 .index-prize__main .swiper-container .swiper-slide {
   height: 428px;
   box-sizing: border-box;
@@ -2513,7 +2518,8 @@ svg {
 }
 @media (max-width: 959px) {
   .index-prize__main .swiper-container .swiper-slide {
-    height: 128px;
+    flex-direction: column-reverse;
+    height: 160px;
     padding: 0 28px;
   }
 }

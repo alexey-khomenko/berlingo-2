@@ -2,6 +2,10 @@
   margin: 0 auto;
   box-sizing: border-box;
 
+  @media (max-width: $sm_max) {
+    margin-bottom: 15px;
+  }
+
   .swiper-container {
 
     .swiper-slide {
@@ -17,7 +21,8 @@
       }
 
       @media (max-width: $sm_max) {
-        height: 128px;
+        flex-direction: column-reverse;
+        height: 160px;
         padding: 0 28px;
       }
 
