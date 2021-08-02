@@ -2498,11 +2498,6 @@ svg {
   margin: 0 auto;
   box-sizing: border-box;
 }
-@media (max-width: 959px) {
-  .index-prize__main {
-    margin-bottom: 15px;
-  }
-}
 .index-prize__main .swiper-container .swiper-slide {
   height: 428px;
   box-sizing: border-box;
@@ -2519,8 +2514,9 @@ svg {
 @media (max-width: 959px) {
   .index-prize__main .swiper-container .swiper-slide {
     flex-direction: column-reverse;
-    height: 160px;
+    height: 250px;
     padding: 0 28px;
+    margin-bottom: 15px;
   }
 }
 .index-prize__main .swiper-container .swiper-slide .text {
@@ -2536,8 +2532,8 @@ svg {
 }
 @media (max-width: 959px) {
   .index-prize__main .swiper-container .swiper-slide .text {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
   }
 }
 .index-prize__main .swiper-container .swiper-slide .text:hover, .index-prize__main .swiper-container .swiper-slide .text:focus {
@@ -2564,22 +2560,15 @@ svg {
   text-decoration: none;
 }
 .index-prize__main .swiper-container .swiper-slide .image img {
-  width: auto;
-}
-.index-prize__main .swiper-container .swiper-slide .image-0 img {
-  height: 428px;
-}
-@media (max-width: 959px) {
-  .index-prize__main .swiper-container .swiper-slide .image-0 img {
-    height: 122px;
-  }
-}
-.index-prize__main .swiper-container .swiper-slide .image-1 img {
-  height: 302px;
+  width: 420px;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (max-width: 959px) {
-  .index-prize__main .swiper-container .swiper-slide .image-1 img {
-    height: 98px;
+  .index-prize__main .swiper-container .swiper-slide .image img {
+    width: 240px;
+    height: 180px;
   }
 }
 .index-prize__main .swiper-container .swiper-button-prev, .index-prize__main .swiper-container .swiper-button-next {

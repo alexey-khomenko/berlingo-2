@@ -2,10 +2,6 @@
   margin: 0 auto;
   box-sizing: border-box;
 
-  @media (max-width: $sm_max) {
-    margin-bottom: 15px;
-  }
-
   .swiper-container {
 
     .swiper-slide {
@@ -22,8 +18,9 @@
 
       @media (max-width: $sm_max) {
         flex-direction: column-reverse;
-        height: 160px;
+        height: 250px;
         padding: 0 28px;
+        margin-bottom: 15px;
       }
 
       .text {
@@ -38,8 +35,8 @@
         line-height: 43.2px;
 
         @media (max-width: $sm_max) {
-          font-size: 16px;
-          line-height: 24px;
+          font-size: 20px;
+          line-height: 28px;
         }
 
         &:hover, &:focus {
@@ -70,22 +67,13 @@
         text-decoration: none;
 
         img {
-          width: auto;
-        }
-
-        &-0 img {
-          height: 428px;
+          width: 420px;
+          height: 400px;
+          object-fit: contain;
 
           @media (max-width: $sm_max) {
-            height: 122px;
-          }
-        }
-
-        &-1 img {
-          height: 302px;
-
-          @media (max-width: $sm_max) {
-            height: 98px;
+            width: 240px;
+            height: 180px;
           }
         }
       }
